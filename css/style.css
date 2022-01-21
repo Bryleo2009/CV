@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+
+
+
+.historia,
+.academic {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Cabecera*/
+.cabecera{
+    background-color: rgb(27, 27, 31);
+    color: white;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#cab-img{
+    width: 100%;
+    height: 550px;
+}
+
+.cabecera h1 {
+    font-size: 100px;
+    margin-bottom: auto;
+    font-family: 'Ubuntu Mono', monospace; 
+}
+
+.cabecera h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.cabecera button {
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+/*HISTORIA*/
+.historia h1{
+    font-size: 50px;
+    font-family: 'Neuton', serif;
+}
+
+.historia hr {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+}
+
+.historia img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.historia p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Istok Web', sans-serif;
+    width: 500px;
+}
+
+.historia-conte{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    padding: 100px;
+}
+
+.historia-conte > div {
+width: 50%;
+padding: 10px;
+}
+
+.historia-conte > div:first-child {
+margin-right: 20px;
+}
+
+/*ACADÉMICO*/
+.academic-container{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.academic-container > div {
+width: 50%;
+padding: 10px;
+}
+
+.academic-container > div:first-child {
+margin-right: 20px;
+}
+
+.academic{
+    background-color: rgb(27, 27, 31);
+    color: white;
+    padding: 20px;
+}
+
+#title-academic {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(211, 174, 9);
+    font-size: 40px;
+}
+
+.academic div div {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.academic div div h2{
+    font-family: 'Readex Pro', sans-serif;
+}
